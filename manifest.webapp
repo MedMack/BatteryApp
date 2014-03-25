@@ -1,0 +1,22 @@
+{
+  "name": "Battery App",
+  "description": "...",
+  "launch_path": "/index.html",
+  "developer": {
+    "name": "Mack",
+    "url": "https://github.com/MedMack"
+  },
+  "locales": {
+    "en-US": {
+      "name": "Battery App",
+      "description": "..."
+    }
+  },
+  "default_locale": "en-US",
+  "icons": {
+    "60": "/logo60.png",
+    "120": "/logo120.png",
+    "128": "/logo128.png"
+  },
+  "orientation": "portrait-primary"
+}

@@ -1,0 +1,26 @@
+<!doctype HTML>
+<head>
+	<title>Battery App</title>
+	<meta content="text/html" charset="utf-8">
+	<meta name="description" content="Battery App" />
+    <meta name="keywords" content="FirefoxOS, App, Boot2Gecko, B2G, HTML5, CSS3, JavaScript, JS, Battery, Recharging, Mozilla" />
+    <meta name="author" content="MedMack" />
+	<link rel="stylesheet" type="text/css" href="styles/----.css">
+	<script type="text/javascript" src="script/script.js"></script>
+	
+</head>
+<!-- la fonction getBatteryStatus() est lancée au chargement de la page -->
+<body role="application" onLoad="getBatteryStatus()">
+	<div id="container">
+	<!-- les informations concernant la betterie -->
+		<p id="blevel">Battery level : </p>
+		<p id="bstatus">Battery Status : </p>
+		<p id="ctime">Charging Time : </p>
+		<p id="dtime">Discharging Time : </p>
+
+		<!-- le niveau du chargement de la battrie -->
+		<div id="marge" style="border:solid 1px black;height:30px;width:50%;">
+		<div id="jauge" style="height:30px;background-color:red;"></div>
+		</div>
+	</div>
+</body>
